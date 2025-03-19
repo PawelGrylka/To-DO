@@ -5,5 +5,5 @@ struct ItemModel: Identifiable {
     let title: String
     let details: String
     let decription : String
-    let Done : Bool
+    var Done : Bool
 }

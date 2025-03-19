@@ -28,6 +28,7 @@ struct ContentView: View {
                 .frame(maxWidth: .infinity)
                 .background(Color.blue.opacity(0.8))
 
+                
                 Spacer()
 
                 // Main Content

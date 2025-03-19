@@ -33,10 +33,12 @@ struct HistoryView: View {
                     }
                 }
                 .listStyle(.plain) // Styl listy
+                
             }
         }
     }
 }
+
 
 struct DetailView2: View {
     let item: ItemModel

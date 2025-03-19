@@ -11,9 +11,10 @@ class ListViewModel: ObservableObject {
         let newItem = ItemModel(title: title, details: details, decription: decription, Done: false)
         data.append(newItem)
     }
-    func deleteItemFromList() {
-        
+    func removeItem(item: ItemModel) {
+        data.removeAll { $0.id == item.id }
     }
+
     
     
 }
